@@ -57,18 +57,6 @@ CATEGORY_DIFF_DICT = {
     'product_category': {'ad': [1.0, 1.0], 'click': [1.0, 1.0]}  # 18, very important
 }
 
-# click log (pv dim)
-COL_STAT_CLIP_DICT = {
-    'advertiser_id': 300,
-    'product_id': 500,
-    'industry': 1000,
-    'product_category': 1500
-}
-
-COUNT_COLS = ['creative_id', 'ad_id', 'advertiser_id', 'product_id', 'industry', 'product_category']
-DIST_COLS = ['advertiser_id', 'product_id', 'industry', 'product_category']
-SPARSE_COLS = ['product_category']
-
 ONEHOT_DIM_DICT = {
     'rnn2cate': 15,
     'rnn2gender': 1,
